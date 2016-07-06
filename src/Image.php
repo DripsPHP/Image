@@ -2,7 +2,7 @@
 
 namespace Drips\Image;
 
-use ImageResize;
+use Image;
 
 class Image extends ImageResize
 {
