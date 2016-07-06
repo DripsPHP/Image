@@ -1,0 +1,14 @@
+{
+    "name": "drips/Image",
+    "description": "Image-Resizer basierend auf php-image-resize ",
+    "keywords": ["php", "image", "resize", "scale"],
+    "license": "MIT",
+    "require": {
+        "eventviva/php-image-resize": "1.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drips\\Image\\": "src"
+        }
+    }
+}
