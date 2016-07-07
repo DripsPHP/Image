@@ -1,8 +1,7 @@
 <?php
 
 namespace Drips\Image;
-
-use Image;
+use \Eventviva\ImageResize;
 
 class Image extends ImageResize
 {

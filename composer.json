@@ -1,5 +1,5 @@
 {
-    "name": "drips/Image",
+    "name": "drips/image",
     "description": "Image-Resizer basierend auf php-image-resize ",
     "keywords": ["php", "image", "resize", "scale"],
     "license": "MIT",
