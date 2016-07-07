@@ -38,12 +38,7 @@ class ImageTest extends PHPUnit_Framework_TestCase
            $this->assertEquals(IMAGETYPE_PNG, $resize->source_type);
            $this->assertInstanceOf('\Drips\Image\Image', $resize);
        }
-       public function testLoadString()
-       {
-           $resize = Image::createFromString(base64_decode($this->image_string));
-           $this->assertEquals(IMAGETYPE_GIF, $resize->source_type);
-           $this->assertInstanceOf('\Drips\Image\Image', $resize);
-       }
+
        /**
         * Bad load tests
         */
