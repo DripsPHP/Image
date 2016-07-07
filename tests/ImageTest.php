@@ -166,7 +166,7 @@ class ImageTest extends PHPUnit_Framework_TestCase
            $image = $this->createImage(200, 100, 'png');
            $resize = new Image($image);
            $resize->crop(50, 50, false, $resize::CROPRIGHT);
-           $reflection_class = new ReflectionClass('\Drips\Image\Image');
+           $reflection_class = new \ReflectionClass('\Drips\Image\Image');
            $source_x = $reflection_class->getProperty('source_x');
            $source_x->setAccessible(true);
            $this->assertEquals(100, $source_x->getValue($resize));
