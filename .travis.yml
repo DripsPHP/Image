@@ -13,6 +13,7 @@ matrix:
 script:
   - composer require codeclimate/php-test-reporter --dev
   - composer update
+  - cd vendor/eventviva/php-image-resize/
   - echo "Running PHPUnit Tests"
   - phpunit --coverage-clover build/logs/clover.xml
 after_script:
