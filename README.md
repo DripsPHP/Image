@@ -10,4 +10,4 @@ Klasse zum Anpassen von Bildern.
 
 ## Verwendung
 
-Siehe:  [ http://php-image-resize](https://github.com/eventviva/php-image-resize).
+Siehe:  [php-image-resize](https://github.com/eventviva/php-image-resize).
